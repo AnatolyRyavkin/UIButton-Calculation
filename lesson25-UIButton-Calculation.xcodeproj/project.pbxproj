@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD1768032285814F00F6A0C8 /* AVViewArea.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1768022285814F00F6A0C8 /* AVViewArea.m */; };
+		FD8EC495228433690019DDE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8EC494228433690019DDE5 /* AppDelegate.m */; };
+		FD8EC498228433690019DDE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8EC497228433690019DDE5 /* ViewController.m */; };
+		FD8EC49B228433690019DDE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8EC499228433690019DDE5 /* Main.storyboard */; };
+		FD8EC49D2284336A0019DDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8EC49C2284336A0019DDE5 /* Assets.xcassets */; };
+		FD8EC4A02284336A0019DDE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8EC49E2284336A0019DDE5 /* LaunchScreen.storyboard */; };
+		FD8EC4A32284336A0019DDE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8EC4A22284336A0019DDE5 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD1768012285814F00F6A0C8 /* AVViewArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVViewArea.h; sourceTree = "<group>"; };
+		FD1768022285814F00F6A0C8 /* AVViewArea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVViewArea.m; sourceTree = "<group>"; };
+		FD8EC490228433690019DDE5 /* lesson25-UIButton-Calculation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lesson25-UIButton-Calculation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8EC493228433690019DDE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD8EC494228433690019DDE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD8EC496228433690019DDE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD8EC497228433690019DDE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD8EC49A228433690019DDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD8EC49C2284336A0019DDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD8EC49F2284336A0019DDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD8EC4A12284336A0019DDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8EC4A22284336A0019DDE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD8EC48D228433690019DDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD8EC487228433680019DDE5 = {
+			isa = PBXGroup;
+			children = (
+				FD8EC492228433690019DDE5 /* lesson25-UIButton-Calculation */,
+				FD8EC491228433690019DDE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD8EC491228433690019DDE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD8EC490228433690019DDE5 /* lesson25-UIButton-Calculation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD8EC492228433690019DDE5 /* lesson25-UIButton-Calculation */ = {
+			isa = PBXGroup;
+			children = (
+				FD1768012285814F00F6A0C8 /* AVViewArea.h */,
+				FD1768022285814F00F6A0C8 /* AVViewArea.m */,
+				FD8EC493228433690019DDE5 /* AppDelegate.h */,
+				FD8EC494228433690019DDE5 /* AppDelegate.m */,
+				FD8EC496228433690019DDE5 /* ViewController.h */,
+				FD8EC497228433690019DDE5 /* ViewController.m */,
+				FD8EC499228433690019DDE5 /* Main.storyboard */,
+				FD8EC49C2284336A0019DDE5 /* Assets.xcassets */,
+				FD8EC49E2284336A0019DDE5 /* LaunchScreen.storyboard */,
+				FD8EC4A12284336A0019DDE5 /* Info.plist */,
+				FD8EC4A22284336A0019DDE5 /* main.m */,
+			);
+			path = "lesson25-UIButton-Calculation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD8EC48F228433690019DDE5 /* lesson25-UIButton-Calculation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD8EC4A62284336A0019DDE5 /* Build configuration list for PBXNativeTarget "lesson25-UIButton-Calculation" */;
+			buildPhases = (
+				FD8EC48C228433690019DDE5 /* Sources */,
+				FD8EC48D228433690019DDE5 /* Frameworks */,
+				FD8EC48E228433690019DDE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lesson25-UIButton-Calculation";
+			productName = "lesson25-UIButton-Calculation";
+			productReference = FD8EC490228433690019DDE5 /* lesson25-UIButton-Calculation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD8EC488228433680019DDE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					2,
+				);
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AnatolyRyavkin;
+				TargetAttributes = {
+					FD8EC48F228433690019DDE5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FD8EC48B228433680019DDE5 /* Build configuration list for PBXProject "lesson25-UIButton-Calculation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD8EC487228433680019DDE5;
+			productRefGroup = FD8EC491228433690019DDE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD8EC48F228433690019DDE5 /* lesson25-UIButton-Calculation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD8EC48E228433690019DDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8EC4A02284336A0019DDE5 /* LaunchScreen.storyboard in Resources */,
+				FD8EC49D2284336A0019DDE5 /* Assets.xcassets in Resources */,
+				FD8EC49B228433690019DDE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD8EC48C228433690019DDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8EC498228433690019DDE5 /* ViewController.m in Sources */,
+				FD1768032285814F00F6A0C8 /* AVViewArea.m in Sources */,
+				FD8EC4A32284336A0019DDE5 /* main.m in Sources */,
+				FD8EC495228433690019DDE5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD8EC499228433690019DDE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD8EC49A228433690019DDE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD8EC49E2284336A0019DDE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD8EC49F2284336A0019DDE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD8EC4A42284336A0019DDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD8EC4A52284336A0019DDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD8EC4A72284336A0019DDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92NKZ7998L;
+				INFOPLIST_FILE = "lesson25-UIButton-Calculation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AnatatolyRyavkin.lesson25-UIButton-Calculation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD8EC4A82284336A0019DDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92NKZ7998L;
+				INFOPLIST_FILE = "lesson25-UIButton-Calculation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AnatatolyRyavkin.lesson25-UIButton-Calculation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD8EC48B228433680019DDE5 /* Build configuration list for PBXProject "lesson25-UIButton-Calculation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8EC4A42284336A0019DDE5 /* Debug */,
+				FD8EC4A52284336A0019DDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD8EC4A62284336A0019DDE5 /* Build configuration list for PBXNativeTarget "lesson25-UIButton-Calculation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8EC4A72284336A0019DDE5 /* Debug */,
+				FD8EC4A82284336A0019DDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD8EC488228433680019DDE5 /* Project object */;
+}
